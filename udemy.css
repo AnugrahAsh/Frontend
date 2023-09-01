@@ -1,0 +1,200 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+nav{
+    height: 72px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    position: sticky;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    z-index: 1;
+}
+nav img{
+    height: 35px;
+    box-sizing: border-box;
+    margin: 23px;
+    margin-right: 0;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    font-weight: ;
+}
+input{
+    height: 46px;
+    width: 600px;
+    /* border-radius: 25px; */
+    /* padding: 0px 20px; */
+    /* border: 1px solid gray;
+    border-left: none; */
+    border: none;
+    background: none;
+}
+.search{
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    gap: 10px;
+    padding: 0 20px;
+    border-radius: 25px;
+    background-color: rgba(243, 239, 239,0.416);
+}
+
+.button{
+    padding: 9px 18px;
+    font-weight: bolder;
+    background: none;
+    border: 1px solid black;
+    margin: 0 0;
+}
+.but{
+    margin-left: 10px;
+    display: flex;
+    gap: 9px;
+}
+.world{
+    background: none;
+    border: 1px solid black;
+    margin: 0 0;
+    padding: 10px;
+}
+.world svg{
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+svg{
+    margin: 0 5px;
+}
+.black{
+    background: black;
+    color: white;
+}
+.cart{
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    transition: cubic-bezier(0.55, 0.085, 0.68, 0.53) 1.2s;
+}
+.cart:hover{
+    transform: rotate(360deg);
+    transition: cubic-bezier(0.55, 0.085, 0.68, 0.53) 1.2s;
+}
+/* .first_img img{
+    object-fit: contain;
+    width: 10%;
+    box-sizing: border-box;
+    z-index: 3;
+    position: static;
+} */
+.first_img{
+    background: url(https://s.udemycdn.com/browse_components/billboard/fallback_banner_image_udlite.jpg);
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}
+.first_img .learning{
+    padding: 20px;
+    border: 1px solid white;
+    margin-top: 10px;
+    background-color: white;
+    width: 440px;
+    height: 120px;
+    margin-top: 70px;
+    margin-left: 65px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px 1px rgb(158, 158, 158);
+    line-height: 1.2;
+    padding-bottom: 30px;
+    z-index: 2;
+    
+}
+h1{
+    font-size: 36px;
+    /* font-weight: bolder; */
+    font-family: 'Lora', serif;
+    margin-top: 10px;
+    line-height: 1;
+}
+p{
+    margin-top: 15px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    font-size: 19px;
+}
+.company{
+    width: 100%;
+    height: 226.6px;
+    background-color: #f7f7f7;
+    margin-top: 450px;
+    display: flex;
+    flex-direction: column;
+    padding: 64;
+}
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.trust{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 36px;
+    margin-top: 90px;
+    color: grey;
+}
